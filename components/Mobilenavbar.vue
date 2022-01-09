@@ -35,8 +35,8 @@
                             <a v-b-toggle.my-collapse>Login Wallet</a>
                             <b-collapse id="my-collapse">
                                 <ul>
-                                    <li>snak</li>
-                                    <li>dodo</li>
+                                    <li>Meta Mask</li>
+                                    <li>Wallet Connect</li>
                                 </ul>
                             </b-collapse>
                             <a href="#contact">Contact</a>
