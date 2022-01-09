@@ -2,12 +2,14 @@
     <div class="mainavbar">
         
         <div class="logo">
-            <img src="~/assets/img/logo.png" alt="Brand Logo">
+            <NuxtLink to="/">
+                <img src="~/assets/img/logo.png" alt="Brand Logo">
+            </NuxtLink>
         </div>
         
         <ul class="navcontent">
             <li>
-            <a href=""> How To Play </a>
+                <NuxtLink to="/howtoplay"> How To Play </NuxtLink>
             </li>
             <li>
             <a href=""> Stake Logs </a>

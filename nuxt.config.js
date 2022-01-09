@@ -1,5 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: false,
+  target: 'static',
   head: {
     title: 'gg',
     meta: [
@@ -21,7 +23,12 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
-
+   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+   loadingIndicator: {
+    name: 'circle',
+    color: '#402a68',
+    background: 'white'
+  },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -53,7 +60,6 @@ export default {
     baseURL: '/',
   },
 
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
       lang: 'en'
