@@ -1,0 +1,40 @@
+/* Override form input */
+.form-control {
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  min-height: 40px;
+  &.is-valid {
+    background: none;
+  }
+  &.is-invalid {
+    background: none;
+  }
+
+  input {
+    color: $black;
+  }
+}
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  &.bold {
+    font-weight: bold;
+  }
+  &.shadow {
+    box-shadow: 0 2px 4 0 #587d71 20%;
+  }
+}
+
+.invalid-feedback {
+  position: absolute;
+}
+
+.form-group, .errormessage {
+  margin-bottom: 22px;
+  color: $danger
+}
