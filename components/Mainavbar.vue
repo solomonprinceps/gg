@@ -12,6 +12,9 @@
                 <NuxtLink to="/howtoplay"> How To Play </NuxtLink>
             </li>
             <li>
+                <NuxtLink to="/gameboard"> Game Board </NuxtLink>
+            </li>
+            <li>
             <a href=""> Stake Logs </a>
             </li>
             <li>

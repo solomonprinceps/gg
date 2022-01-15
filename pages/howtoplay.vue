@@ -1,4 +1,5 @@
 <template>
+<div class="othercontent">
     <div class="howtoplay"> 
         <h1>How to Play Game Garoo</h1>
         <p>
@@ -11,6 +12,8 @@
         </div>
         
     </div>
+</div>
+    
 </template>
 <script>
 

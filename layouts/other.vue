@@ -7,7 +7,7 @@
         <div class="mobilenav">
             <Mobilenavbar></Mobilenavbar>
         </div>
-        <div class="othercontent">
+        <div>
             <Nuxt />
         </div>
         
