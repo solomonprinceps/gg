@@ -9,6 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/auth-next": "^5.0.0-1637745161.ea53f98",
+    "@nuxtjs/toast": "^3.3.1",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "sweetalert": "^2.1.2",
+    "sass-loader": "^8.0.2",
+    "vue-toast-notification": "^0.6.2",
+    "web3": "^1.6.1",
+    "axios": "^0.24.0",
+    "moralis": "0.0.154",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/style-resources": "^1.2.1",

@@ -2,7 +2,7 @@
 <div class="othercontentgame">
     <div class="howtoplay"> 
         <div class="container">
-            <div class="row  mb-2">
+            <div class="row mb-2">
                 <h3 class="headf unactivecolor">Session ID</h3>
             </div>
             <div class="row mb-2 headbox">
