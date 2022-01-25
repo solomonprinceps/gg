@@ -1,7 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   ssr: false,
-  target: 'static',
   head: {
     title: 'gg',
     meta: [
@@ -52,18 +51,6 @@ export default {
   axios: {
     baseURL: process.env.BASE_URL, 
   },
-  toast: {
-    position: 'top-center',
-    register: [ // Register custom toasts
-      {
-        name: 'my-error',
-        message: 'Oops...Something went wrong',
-        options: {
-          type: 'error'
-        }
-      }
-    ]
-  },
   styleResources: {
     scss: '@/assets/scss/_variables.scss'
   },
@@ -79,6 +66,18 @@ export default {
     '@nuxtjs/auth-next',
     '@nuxtjs/toast',
   ],
+  toast: {
+    position: 'top-center',
+    register: [ // Register custom toasts
+      {
+        name: 'my-error',
+        message: 'Oops...Something went wrong',
+        options: {
+          type: 'error'
+        }
+      }
+    ]
+  },
   auth: {
     strategies: {
       local: {

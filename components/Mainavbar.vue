@@ -18,7 +18,7 @@
                 <a href=""> Stake Logs </a>
             </li>
             <li>
-                <NuxtLink to="/gamesessions"> Game Session </NuxtLink>
+                <NuxtLink to="/gamesessions"> Game Sessions </NuxtLink>
             </li>
         </ul>
         <div class="loginbtn" v-if="!this.$auth.loggedIn">

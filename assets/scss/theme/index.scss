@@ -14,6 +14,10 @@ body {
 }
 
 
+.nuxt-link-exact-active, .nuxt-link-active {
+  color: #20bcfc!important;
+}
+
 .sbnav {
   width: inherit;
   height: 400px;
@@ -607,6 +611,7 @@ body {
       font-size: 21px;
       line-height: 25px;
       color: #FFFFFF;
+      cursor: default;
     }
   }
 }
@@ -647,6 +652,8 @@ body {
   padding: 10px;
   align-items: start;
   justify-content: center;
+  min-height: 50px;
+  height: max-content;
   .slb {
     height: 30px;
     width: 36px;
