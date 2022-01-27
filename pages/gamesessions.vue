@@ -2,12 +2,15 @@
 <div class="othercontent">
     <div class="howtoplay"> 
         <div class="container">
-            <div class="row mb-2">
-                <h3 class="headf unactivecolor">Game Sessions </h3>
+            
+             <div class="row mb-2 px-3">
+                <div class="col-md-6 col-sm-12 px-4">
+                    <h3 class="headf text-left unactivecolor">Game Sessions </h3>
+                </div>
             </div>
-            <div class="row my-3">
-                
-                <div  class="col-md-12 mb-3" v-for="(session, index) in sessions" :key="index">
+            
+            <div class="row my-3 px-3">
+                <div  class="col-md-6 mb-3 px-4" v-for="(session, index) in sessions" :key="index">
                     <div class="gamesess">
                         <p class="gameid">{{ session.sessionid }} <span></span></p> 
                     </div>
@@ -40,7 +43,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-12 mt-3">
+                <div class="col-md-12 mt-3 px-3">
                     <div class="float-left">
                         <p class="">{{to}} of {{total}}</p>
                     </div>
@@ -49,8 +52,8 @@
                         <button type="button" @click="paginate(next_page_url)" class="btn btn-primary">Next</button>
                     </div>
                 </div>
-
             </div>
+
         </div>
     </div>
 </div>

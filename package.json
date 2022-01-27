@@ -21,7 +21,6 @@
     "core-js": "^3.19.3",
     "moralis": "0.0.154",
     "nuxt": "^2.15.8",
-    "sass-loader": "^8.0.2",
     "sweetalert": "^2.1.2",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
@@ -32,6 +31,6 @@
   },
   "devDependencies": {
     "sass": "^1.45.2",
-    "sass-loader": "^10.2.0"
+    "sass-loader": "^10.1.1"
   }
 }

@@ -15,7 +15,7 @@
                 <NuxtLink to="/gameboard"> Game Board </NuxtLink>
             </li>
             <li>
-                <a href=""> Stake Logs </a>
+                <NuxtLink to="/stakelog"> Stake Logs </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/gamesessions"> Game Sessions </NuxtLink>
@@ -31,7 +31,7 @@
             <div id="menushow" @click="hidelogin" class="menushow hide">
                 <div id="backmenu" class="wallets shadow">
                     <ul>
-                        <li @click="loginmetamask">META MAST</li>
+                        <li @click="loginmetamask" class="mb-3">META MAST</li>
                         <li @click="loginWalletconnet">WALLET CONNECT</li>
                     </ul>
                 </div>

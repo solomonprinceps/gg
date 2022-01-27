@@ -68,6 +68,7 @@ export default {
   ],
   toast: {
     position: 'top-center',
+    duration: 3000,
     register: [ // Register custom toasts
       {
         name: 'my-error',
@@ -101,6 +102,12 @@ export default {
           user: { url: 'customers/customerdata', method: 'get' }
         }
       }
+    },
+    redirect: {
+      login: '/',
+      logout: '/',
+      callback: '/login',
+      home: '/'
     }
   },
   pwa: {
