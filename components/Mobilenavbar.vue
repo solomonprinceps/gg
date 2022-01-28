@@ -32,7 +32,8 @@
                             <NuxtLink to="/">Home</NuxtLink>
                             <NuxtLink to="/howtoplay">How To Play</NuxtLink>
                             <NuxtLink to="/gameboard"> Game Board </NuxtLink>
-                            <NuxtLink to="/gamesessions"> Game Session </NuxtLink>
+                            <NuxtLink to="/gamesessions"> Game Sessions </NuxtLink>
+                            <NuxtLink to="/stakelog"> Game Sessions </NuxtLink>
                             <a v-b-toggle.my-collapse>Login Wallet</a>
                             <b-collapse id="my-collapse" v-if="!this.$auth.loggedIn">
                                 <ul>
